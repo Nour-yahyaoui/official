@@ -1,0 +1,129 @@
+.sp-1 {
+    animation: sp-1 2s linear;
+}
+@keyframes sp-1 {
+    from {
+        transform: translateX(-30px);
+        opacity: .0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.sp-2 {
+    animation: sp-2 2s linear;
+}
+@keyframes sp-2 {
+    from {
+        transform: translateY(-100px);
+        opacity: .0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.sp-3 {
+    animation: sp-3 2s linear;
+}
+.sp-4 {
+    animation: sp-3 2s linear;
+}
+@keyframes sp-3 {
+    from {
+        transform: translateX(-30px);
+        opacity: .0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.skills-bar {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    min-height: 200px;
+    background-color: rgba(243, 243, 243, 0.031);
+    border-radius: 30px;
+}
+.bar {
+    width: clamp(200px, 250px, 300px);
+    background-color: rgb(29, 29, 29);
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    height: 20px;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.skills-bar h2 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.HTML {
+    width:200px;
+    background-color: rgb(247, 75, 12);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
+.CSS {
+    width:200px;
+    background-color: rgb(12, 130, 247);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
+.JS {
+    width:150px;
+    background-color: rgb(247, 169, 12);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
+.PY {
+    width:200px;
+    background-color: rgb(23, 75, 187);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
+.php {
+    width:120px;
+    background-color: rgb(157, 15, 143);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
+.ruby {
+    width:80px;
+    background-color: rgb(190, 22, 78);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
+.coffeee {
+    width:70px;
+    background-color: rgb(212, 206, 32);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
+.bash {
+    width:120px;
+    background-color: rgb(121, 18, 185);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
+.ts {
+    width:80px;
+    background-color: rgb(12, 77, 142);
+    position: absolute;
+    height: 20px;
+    border-radius: 30px;
+}
