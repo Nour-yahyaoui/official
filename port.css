@@ -336,7 +336,7 @@ nav a:hover::before {
     top: 100%;
     z-index: -1;
     border-radius: 50px;
-    animation: mv 2s linear;
+    animation: mv 4s linear;
     background:linear-gradient(to right, rgb(14, 94, 173), rgb(65, 211, 255));
     position: absolute;
 }
