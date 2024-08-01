@@ -47,6 +47,7 @@
     min-height: 200px;
     background-color: rgba(243, 243, 243, 0.031);
     border-radius: 30px;
+    margin-bottom: 200px;
 }
 .bar {
     width: clamp(200px, 250px, 300px);
