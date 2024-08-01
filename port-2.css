@@ -1,51 +1,22 @@
 .sp-1 {
     animation: sp-1 2s linear;
 }
-@keyframes sp-1 {
-    from {
-        transform: translateX(-30px);
-        opacity: .0;
-    }
-    to {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
 .sp-2 {
     animation: sp-2 2s linear;
 }
-@keyframes sp-2 {
-    from {
-        transform: translateY(-100px);
-        opacity: .0;
-    }
-    to {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
+
 .sp-3 {
     animation: sp-3 2s linear;
 }
 .sp-4 {
     animation: sp-3 2s linear;
 }
-@keyframes sp-3 {
-    from {
-        transform: translateX(-30px);
-        opacity: .0;
-    }
-    to {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
+
 .skills-bar {
     width: 300px;
     margin: auto;
     padding: 20px;
     min-height: 200px;
-    background-color: rgba(243, 243, 243, 0.031);
     border-radius: 30px;
     margin-bottom: 200px;
 }
@@ -59,15 +30,20 @@
     justify-content: start;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 .skills-bar h2 {
     font-size: 25px;
     font-weight: bolder;
 }
+.skills-bar p {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
 .HTML {
     width:200px;
-    background-color: rgb(247, 75, 12);
+    background-color: rgb(0, 0, 0);
     position: absolute;
     height: 20px;
     border-radius: 30px;
@@ -127,4 +103,15 @@
     position: absolute;
     height: 20px;
     border-radius: 30px;
+}
+.skills-bar img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.html {
+    color: rgb(219, 101, 16);
+    font-weight: 800;
+    font-size: 40px;
+    margin: auto;
 }
