@@ -136,6 +136,7 @@ nav a:hover::before {
 .about-sec {
     background-color: #b1b1b109;
     padding: 20px;
+    margin-bottom: 200px;
 }
 .about-sec p {
     font-weight: 600;
@@ -143,6 +144,7 @@ nav a:hover::before {
 }
 .project-card {
     width: 320px;
+    margin-bottom: 150px;
     margin-top: 50px;
     border-radius: 20px;
     padding: 20px;
@@ -167,6 +169,8 @@ nav a:hover::before {
 .project-card-2 {
     position: relative;
 }
+
+
 .project-card-2::before {
     position: absolute;
     content: "";
@@ -187,7 +191,7 @@ nav a:hover::before {
     z-index: -1;
     position: relative;
     content: "hello";
-    margin-bottom: -130px;
+    margin-bottom: -120px;
 }
 .circle {
     border-radius: 50%;
@@ -198,8 +202,8 @@ nav a:hover::before {
     width: 15px;
     height: 15px;
     background-color: rgb(33, 157, 224);
-    top: -6%;
-    left: -6%;
+    top: -8%;
+    left: -8%;
     border-radius: 50%;
 }
 .circle::before {
@@ -208,8 +212,8 @@ nav a:hover::before {
     width: 15px;
     height: 15px;
     background-color: rgb(33, 157, 224);
-    top: -6%;
-    left: 94%;
+    top: -7%;
+    left: 95%;
     border-radius: 50%;
 }
 .box {
@@ -326,7 +330,7 @@ nav a:hover::before {
     font-size: 25px;
     width: 300px;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 
 }
 .hero-p::before {
